@@ -2,7 +2,7 @@
   "name": "trading-office-confirmations-service",
   "version": "1.0.0",
   "description": "Trading Office - Confirmation Service",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha test"
   },
