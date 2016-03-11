@@ -1,0 +1,7 @@
+{
+  "name": "Trading Office - Confirmations Service",
+  "description": "Trading Office - Confirmations Service",
+  "repository": "https://github.com/spolnik/trading-office-confirmations-service-node",
+  "keywords": ["node", "trading-office"],
+  "image": "heroku/nodejs"
+}

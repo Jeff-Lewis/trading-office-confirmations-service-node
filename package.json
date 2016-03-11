@@ -1,0 +1,27 @@
+{
+  "name": "trading-office-confirmations-service",
+  "version": "1.0.0",
+  "description": "Trading Office - Confirmation Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spolnik/trading-office-confirmations-service-node.git"
+  },
+  "author": "Jacek Spolnik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spolnik/trading-office-confirmations-service-node/issues"
+  },
+  "homepage": "https://github.com/spolnik/trading-office-confirmations-service-node#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "nedb": "^1.8.0",
+    "restify": "^4.0.4"
+  }
+}

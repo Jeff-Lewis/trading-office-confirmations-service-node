@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '4.1'
+deploy:
+  provider: heroku
+  api_key:
+    secure: n1qEB3/hUGQ/tUW/hDsy4RNSRWdkwvIxea3QOCaVFUXKf2Ku2swnQYE0MFRlM4F0s+LadO6G0L2F1NHR1VC5qlVrqoXT5/+LADKgvKtGhogI1jcvp2raxcbrOztQz3jyrmV/5tAOdVFYJXAbdj/UVlA+aPEIKPGt8AKTkCYCxctX2GnpcEtHDDkhQicMakFTqKQXhpmjmbz6xe8WrBaMg59+atBi/7LApfeJbdxHa94duZHkV1caVerQO3NAKIT1wLOEQdc2mok2DjZpLco/mWe2g7fU5wAG1LsiCWu3aTVZYFPXGCdm4FICUsCqQGKDSc9w4WCK9nogloRHjEII5pdc5CdPNyTgXCIQMp0oA3rbaDwhQ92t5Vad6PZfY3FwomTfAf74bJB5d9A+rbBKNzaVWh+w3DHKiHs1G6EMiNwiMvlKnbT/OftsSQVcAXymY7WAPPepIUKLHc+sCAq213D4u3sDStMlf4ZVoXOxSKBg/YaSb39A9DlfIRyAOQDnVl4wXsy+XmQtJlSCqAzo8jXc8lo6teZDwbjM6Y1BXO1XF8jDH3uWwFI0QW9Xk3zZJNhEHmpk65X2qnKWwKFLQgP3yrNOc1bxUEt10sZ93JTGNCKC3t1aSrf6BWFW5rkknbe//4pIkLfZ4P5WlxrMypbIiUjr/05gVi3zcg9lqI4=
+  app: confirmations-service-node
+  on:
+    repo: spolnik/trading-office-confirmations-service-node
